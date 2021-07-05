@@ -1,4 +1,3 @@
-import {combineReducers} from 'redux';
 
 const initialState = { isDoorOpened: false };
 export const weatherReducer = (state = initialState, action) => {
@@ -17,6 +16,3 @@ export const weatherReducer = (state = initialState, action) => {
 
 // export default weatherReducer
 
-export const reducers = combineReducers({
-	weatherReducer,
-});
